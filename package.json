@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-chatapp",
+  "version": "1.0.0",
+  "description": "This is a real time chat application in which user can chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deba19/NodeJs-ChatApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deba19/NodeJs-ChatApp/issues"
+  },
+  "homepage": "https://github.com/deba19/NodeJs-ChatApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
